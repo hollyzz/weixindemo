@@ -13,7 +13,7 @@
   </block>
 </swiper>
 <view>
-  <view wx:for="{{productList}}" bind:tap="handleClickProduct" data-index="{{index}}">
+  <view wx:for="{{productList}}" class="product" bind:tap="handleClickProduct" data-index="{{index}}">
     {{item.title}}
   </view>
 </view>

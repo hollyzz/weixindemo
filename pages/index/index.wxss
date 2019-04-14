@@ -8,3 +8,11 @@ swiper  image {
   height: 100%;
   width: 100%;
 }
+
+.product {
+  margin: 20px auto;
+  padding: 10px;
+  width: 80%;
+  text-align: center;
+  background-color: #2e5e86;
+}
