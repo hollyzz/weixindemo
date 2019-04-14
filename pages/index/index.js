@@ -9,15 +9,28 @@ Page({
     productList: [
       {
         title: '苹果',
-        value: 'apple',
+        img: '../images/apple.jpeg',
+        value: 'apple2',
       },
       {
         title: '雪梨',
-        value: 'pear',
+        img: '../images/dog.jpeg',
+        value: 'pear3',
+      },
+      {
+        title: '雪梨收到了会计法熟练度看风景都是龙卷风',
+        img: '../images/dog.jpeg',
+        value: 'pear1',
+      },
+      {
+        title: '雪梨',
+        img: '../images/dog.jpeg',
+        value: 'pear4',
       },
       {
         title: '葡萄',
-        value: 'grape',
+        img: '../images/apple.jpeg',
+        value: 'grape5',
       }
     ]
 

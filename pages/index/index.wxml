@@ -12,8 +12,28 @@
     </swiper-item>
   </block>
 </swiper>
+
+<view class="free-WaterfallFlow">
+  <block>
+    <view class="flex-wrap" wx:for="{{productList}}"
+    wx:if="{{index %2 != 0}}"  bind:tap="handleClickProduct" data-index="{{index}}">
+      <image mode="widthFix" src="{{item.img}}"></image>
+      <view>{{item.title}}</view>
+      <view>{{item.data}}</view>
+    </view>
+  </block>
+  <block>
+    <view class="flex-wrap" wx:for="{{productList}}"
+    wx:if="{{index %2 == 0}}"  bind:tap="handleClickProduct" data-index="{{index}}">
+      <image mode="widthFix" src="{{item.img}}"></image>
+      <view>{{item.title}}</view>
+      <view>{{item.data}}</view>
+    </view>
+  </block>
+</view>
+<!-- 
 <view>
-  <view wx:for="{{productList}}" class="product" bind:tap="handleClickProduct" data-index="{{index}}">
+  <view wx:for="{{productList}}" class="product" >
     {{item.title}}
   </view>
-</view>
+</view> -->
