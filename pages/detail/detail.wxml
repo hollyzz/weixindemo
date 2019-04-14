@@ -1,0 +1,9 @@
+<!--detail.wxml-->
+<view>
+  <image></image>
+</view>
+
+<view>
+<text>{{prod.title}}</text>
+
+</view>
