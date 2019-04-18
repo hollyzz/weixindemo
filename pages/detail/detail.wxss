@@ -1,0 +1,16 @@
+/* detail.wxss */
+
+
+.product {
+  margin-top: 20px;
+}
+
+.title {
+  padding: 10px;
+  text-align: left;
+  font-size: 2rem;
+}
+
+.desc {
+  padding: 10px;
+}

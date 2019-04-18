@@ -1,0 +1,9 @@
+<!--detail.wxml-->
+<view class="img">
+  <image></image>
+</view>
+
+<view class="product">
+  <view class="title">{{prod.title}}</view>
+  <view class="desc">介绍</view>
+</view>
